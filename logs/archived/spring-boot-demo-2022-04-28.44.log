@@ -1,0 +1,748 @@
+2022-04-28 12:41:19,749 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-04-28 12:41:19,752 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-04-28 12:43:28,023 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-28 12:43:28,024 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-04-28 12:43:28,024 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Detected StandardServletMultipartResolver
+2022-04-28 12:43:28,025 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Detected AcceptHeaderLocaleResolver
+2022-04-28 12:43:28,025 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Detected FixedThemeResolver
+2022-04-28 12:43:28,027 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6b3284
+2022-04-28 12:43:28,028 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Detected org.springframework.web.servlet.support.SessionFlashMapManager@3b44ed3c
+2022-04-28 12:43:28,029 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-28 12:43:28,029 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed initialization in 5 ms
+2022-04-28 12:43:28,307 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:43:28,350 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/api/v1/employee/1/address", parameters={}
+2022-04-28 12:43:28,363 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8081-exec-2] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-04-28 12:43:28,364 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed 405 METHOD_NOT_ALLOWED
+2022-04-28 12:43:28,369 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-2] Span reported: 90a6aab095879a2c:90a6aab095879a2c:0:1 - GET
+2022-04-28 12:43:28,373 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] "ERROR" dispatch for GET "/error", parameters={}
+2022-04-28 12:43:28,377 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-28 12:43:28,419 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:43:28,420 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [{timestamp=Thu Apr 28 12:43:28 IST 2022, status=405, error=Method Not Allowed, path=/api/v1/employee (truncated)...]
+2022-04-28 12:43:28,475 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-2] Span reported: 90a6aab095879a2c:a228895dd7ab87ba:90a6aab095879a2c:1 - error
+2022-04-28 12:43:28,476 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Exiting from "ERROR" dispatch, status 405
+2022-04-28 12:43:58,444 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-3] GET "/swagger-ui/index.html?configUrl=/MATC/swagger-config", parameters={masked}
+2022-04-28 12:43:58,457 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-3] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-28 12:43:58,492 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed 200 OK
+2022-04-28 12:43:58,556 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2022-04-28 12:43:58,559 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-5] GET "/swagger-ui/swagger-ui.css", parameters={}
+2022-04-28 12:43:58,560 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2022-04-28 12:43:58,561 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-5] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-28 12:43:58,561 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-6] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-28 12:43:58,562 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-4] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-28 12:43:58,600 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Completed 200 OK
+2022-04-28 12:43:58,604 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Completed 200 OK
+2022-04-28 12:43:58,641 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed 200 OK
+2022-04-28 12:43:59,283 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] GET "/MATC/swagger-config", parameters={}
+2022-04-28 12:43:59,284 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#openapiJson(HttpServletRequest)
+2022-04-28 12:43:59,310 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-8] GET "/swagger-ui/favicon-32x32.png", parameters={}
+2022-04-28 12:43:59,312 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-8] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-28 12:43:59,315 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Completed 200 OK
+2022-04-28 12:43:59,334 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-7] Using 'application/json', given [*/*] and supported [application/json]
+2022-04-28 12:43:59,338 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] Writing [{configUrl=/MATC/swagger-config, oauth2RedirectUrl=http://localhost:8081/swagger-ui/oauth2-redirect. (truncated)...]
+2022-04-28 12:43:59,344 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Completed 200 OK
+2022-04-28 12:43:59,354 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-7] Span reported: 6e39bfe21460a498:6e39bfe21460a498:0:1 - openapiJson
+2022-04-28 12:43:59,429 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] GET "/MATC", parameters={}
+2022-04-28 12:43:59,431 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-9] Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String)
+2022-04-28 12:44:01,258 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8081-exec-9] Init duration for springdoc-openapi is: 1791 ms
+2022-04-28 12:44:01,368 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-9] Using 'application/json', given [application/json, */*] and supported [application/json]
+2022-04-28 12:44:01,368 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] Writing ["{"openapi":"3.0.1","info":{"title":"MATC Assessments ","description":"ESS system is used for managem (truncated)..."]
+2022-04-28 12:44:01,377 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed 200 OK
+2022-04-28 12:44:01,379 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-9] Span reported: 61a394f99556cecc:61a394f99556cecc:0:1 - openapiJson
+2022-04-28 12:44:29,500 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] POST "/api/v1/login", parameters={}
+2022-04-28 12:44:29,501 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to com.matc.MATC.AccessMent.Java.controller.UserController#generateToken(JwtRequest)
+2022-04-28 12:44:29,534 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] Read "application/json;charset=UTF-8" to [JwtRequest(username=admin, password=admin123)]
+2022-04-28 12:44:29,541 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-1] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:44:29,545 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-1] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:44:29,557 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:44:29,566 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] Writing [LoginDto(id=1, userName=admin, role=ADMIN, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6Ik (truncated)...]
+2022-04-28 12:44:29,569 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed 201 CREATED
+2022-04-28 12:44:29,570 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-1] Span reported: cd45472f0f8a2dc8:cd45472f0f8a2dc8:0:1 - generateToken
+2022-04-28 12:44:49,306 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:44:49,314 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/api/v1/employee/1/addresses", parameters={}
+2022-04-28 12:44:49,316 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to com.matc.MATC.AccessMent.Java.controller.AddressController#getAddressByEmployeeId(Long)
+2022-04-28 12:44:58,972 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select address0_.add_id as add_id1_0_0_, address0_.emp_id as emp_id5_0_0_, address0_.land_mark as land_mar2_0_0_, address0_.location as location3_0_0_, address0_.pin_code as pin_code4_0_0_ from address address0_ where address0_.add_id=?
+2022-04-28 12:45:01,221 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select address0_.add_id as add_id1_0_, address0_.emp_id as emp_id5_0_, address0_.land_mark as land_mar2_0_, address0_.location as location3_0_, address0_.pin_code as pin_code4_0_ from address address0_
+2022-04-28 12:45:03,404 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:45:03,405 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [[com.matc.MATC.AccessMent.Java.model.Address@6514685e, com.matc.MATC.AccessMent.Java.model.Address@6 (truncated)...]
+2022-04-28 12:45:03,409 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select employee0_.emp_id as emp_id1_1_0_, employee0_.designation as designat2_1_0_, employee0_.experience as experien3_1_0_, employee0_.person_id as person_i5_1_0_, employee0_.salary as salary4_1_0_, person1_.person_id as person_i1_2_1_, person1_.email as email2_2_1_, person1_.mobile_number as mobile_n3_2_1_, person1_.name as name4_2_1_ from employee employee0_ inner join person person1_ on employee0_.person_id=person1_.person_id where employee0_.emp_id=?
+2022-04-28 12:45:03,424 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+2022-04-28 12:45:03,427 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-2] Span reported: 1522296e3f5da9bc:1522296e3f5da9bc:0:1 - getAddressByEmployeeId
+2022-04-28 12:45:03,430 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:46)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:29)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.matc.MATC.AccessMent.Java.securityConfigUser.JwtFilter.doFilterInternal(JwtFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at io.opentracing.contrib.web.servlet.filter.TracingFilter.doFilter(TracingFilter.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-28 12:45:03,432 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] "ERROR" dispatch for GET "/error", parameters={}
+2022-04-28 12:45:03,433 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-28 12:45:03,434 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:45:03,435 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [{timestamp=Thu Apr 28 12:45:03 IST 2022, status=500, error=Internal Server Error, path=/api/v1/emplo (truncated)...]
+2022-04-28 12:45:03,438 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-2] Span reported: 1522296e3f5da9bc:277a2c46b3a37736:1522296e3f5da9bc:1 - error
+2022-04-28 12:45:03,439 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Exiting from "ERROR" dispatch, status 500
+2022-04-28 12:45:40,770 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:45:40,779 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] GET "/api/v1/employee/1/addresses", parameters={}
+2022-04-28 12:45:40,780 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-6] Mapped to com.matc.MATC.AccessMent.Java.controller.AddressController#getAddressByEmployeeId(Long)
+2022-04-28 12:45:45,586 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select address0_.add_id as add_id1_0_0_, address0_.emp_id as emp_id5_0_0_, address0_.land_mark as land_mar2_0_0_, address0_.location as location3_0_0_, address0_.pin_code as pin_code4_0_0_ from address address0_ where address0_.add_id=?
+2022-04-28 12:45:51,288 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select address0_.add_id as add_id1_0_, address0_.emp_id as emp_id5_0_, address0_.land_mark as land_mar2_0_, address0_.location as location3_0_, address0_.pin_code as pin_code4_0_ from address address0_
+2022-04-28 12:45:54,327 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select employee0_.emp_id as emp_id1_1_0_, employee0_.designation as designat2_1_0_, employee0_.experience as experien3_1_0_, employee0_.person_id as person_i5_1_0_, employee0_.salary as salary4_1_0_, person1_.person_id as person_i1_2_1_, person1_.email as email2_2_1_, person1_.mobile_number as mobile_n3_2_1_, person1_.name as name4_2_1_ from employee employee0_ inner join person person1_ on employee0_.person_id=person1_.person_id where employee0_.emp_id=?
+2022-04-28 12:46:00,653 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select address0_.add_id as add_id1_0_, address0_.emp_id as emp_id5_0_, address0_.land_mark as land_mar2_0_, address0_.location as location3_0_, address0_.pin_code as pin_code4_0_ from address address0_
+2022-04-28 12:46:10,204 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:46:10,209 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] Writing [[com.matc.MATC.AccessMent.Java.model.Address@6a337b3f, com.matc.MATC.AccessMent.Java.model.Address@6 (truncated)...]
+2022-04-28 12:46:10,216 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+2022-04-28 12:46:10,218 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-6] Span reported: f61af41fe79dee1f:f61af41fe79dee1f:0:1 - getAddressByEmployeeId
+2022-04-28 12:46:10,219 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:46)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:29)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.matc.MATC.AccessMent.Java.securityConfigUser.JwtFilter.doFilterInternal(JwtFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at io.opentracing.contrib.web.servlet.filter.TracingFilter.doFilter(TracingFilter.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-28 12:46:10,221 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] "ERROR" dispatch for GET "/error", parameters={}
+2022-04-28 12:46:10,222 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-6] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-28 12:46:10,223 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:46:10,224 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] Writing [{timestamp=Thu Apr 28 12:46:10 IST 2022, status=500, error=Internal Server Error, path=/api/v1/emplo (truncated)...]
+2022-04-28 12:46:10,230 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-6] Span reported: f61af41fe79dee1f:a4cb20278ac48d40:f61af41fe79dee1f:1 - error
+2022-04-28 12:46:10,230 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Exiting from "ERROR" dispatch, status 500
+2022-04-28 12:46:22,439 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-4] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:46:22,447 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] GET "/api/v1/employee/1/address", parameters={}
+2022-04-28 12:46:22,449 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8081-exec-4] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-04-28 12:46:22,449 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed 405 METHOD_NOT_ALLOWED
+2022-04-28 12:46:22,450 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-4] Span reported: d3a459a6f1be0528:d3a459a6f1be0528:0:1 - GET
+2022-04-28 12:46:22,450 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] "ERROR" dispatch for GET "/error", parameters={}
+2022-04-28 12:46:22,451 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-4] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-28 12:46:22,452 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:46:22,452 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-4] Writing [{timestamp=Thu Apr 28 12:46:22 IST 2022, status=405, error=Method Not Allowed, path=/api/v1/employee (truncated)...]
+2022-04-28 12:46:22,454 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-4] Span reported: d3a459a6f1be0528:3e2d0b74043ef0b7:d3a459a6f1be0528:1 - error
+2022-04-28 12:46:22,454 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Exiting from "ERROR" dispatch, status 405
+2022-04-28 12:46:25,033 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-7] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:46:25,042 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] GET "/api/v1/employee/1/address", parameters={}
+2022-04-28 12:46:25,046 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8081-exec-7] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-04-28 12:46:25,048 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Completed 405 METHOD_NOT_ALLOWED
+2022-04-28 12:46:25,049 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-7] Span reported: e7bf92b7a1e74730:e7bf92b7a1e74730:0:1 - GET
+2022-04-28 12:46:25,051 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] "ERROR" dispatch for GET "/error", parameters={}
+2022-04-28 12:46:25,053 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-7] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-28 12:46:25,055 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:46:25,057 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-7] Writing [{timestamp=Thu Apr 28 12:46:25 IST 2022, status=405, error=Method Not Allowed, path=/api/v1/employee (truncated)...]
+2022-04-28 12:46:25,066 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-7] Span reported: e7bf92b7a1e74730:2be871bee8689eeb:e7bf92b7a1e74730:1 - error
+2022-04-28 12:46:25,067 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-7] Exiting from "ERROR" dispatch, status 405
+2022-04-28 12:46:25,961 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-9] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:46:25,965 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] GET "/api/v1/employee/1/address", parameters={}
+2022-04-28 12:46:25,966 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8081-exec-9] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-04-28 12:46:25,967 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed 405 METHOD_NOT_ALLOWED
+2022-04-28 12:46:25,967 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-9] Span reported: b7e5c301b9a77c0f:b7e5c301b9a77c0f:0:1 - GET
+2022-04-28 12:46:25,968 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] "ERROR" dispatch for GET "/error", parameters={}
+2022-04-28 12:46:25,969 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-9] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-28 12:46:25,970 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:46:25,971 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-9] Writing [{timestamp=Thu Apr 28 12:46:25 IST 2022, status=405, error=Method Not Allowed, path=/api/v1/employee (truncated)...]
+2022-04-28 12:46:25,972 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-9] Span reported: b7e5c301b9a77c0f:343262fd612ffedf:b7e5c301b9a77c0f:1 - error
+2022-04-28 12:46:25,973 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Exiting from "ERROR" dispatch, status 405
+2022-04-28 12:46:26,666 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-10] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:46:26,671 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] GET "/api/v1/employee/1/address", parameters={}
+2022-04-28 12:46:26,673 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8081-exec-10] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-04-28 12:46:26,673 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-10] Completed 405 METHOD_NOT_ALLOWED
+2022-04-28 12:46:26,674 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-10] Span reported: fcd7d414d9a8e1b:fcd7d414d9a8e1b:0:1 - GET
+2022-04-28 12:46:26,676 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] "ERROR" dispatch for GET "/error", parameters={}
+2022-04-28 12:46:26,677 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-10] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-28 12:46:26,678 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:46:26,678 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-10] Writing [{timestamp=Thu Apr 28 12:46:26 IST 2022, status=405, error=Method Not Allowed, path=/api/v1/employee (truncated)...]
+2022-04-28 12:46:26,680 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-10] Span reported: fcd7d414d9a8e1b:c35c830d813e9702:fcd7d414d9a8e1b:1 - error
+2022-04-28 12:46:26,680 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-10] Exiting from "ERROR" dispatch, status 405
+2022-04-28 12:46:42,559 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-1] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:46:42,566 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] GET "/api/v1/employee/1/addresses", parameters={}
+2022-04-28 12:46:42,567 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to com.matc.MATC.AccessMent.Java.controller.AddressController#getAddressByEmployeeId(Long)
+2022-04-28 12:46:45,576 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-1] select address0_.add_id as add_id1_0_0_, address0_.emp_id as emp_id5_0_0_, address0_.land_mark as land_mar2_0_0_, address0_.location as location3_0_0_, address0_.pin_code as pin_code4_0_0_ from address address0_ where address0_.add_id=?
+2022-04-28 12:46:46,113 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-1] select address0_.add_id as add_id1_0_, address0_.emp_id as emp_id5_0_, address0_.land_mark as land_mar2_0_, address0_.location as location3_0_, address0_.pin_code as pin_code4_0_ from address address0_
+2022-04-28 12:46:50,691 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:46:50,692 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] Writing [[com.matc.MATC.AccessMent.Java.model.Address@c48374f, com.matc.MATC.AccessMent.Java.model.Address@31 (truncated)...]
+2022-04-28 12:46:50,692 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-1] select employee0_.emp_id as emp_id1_1_0_, employee0_.designation as designat2_1_0_, employee0_.experience as experien3_1_0_, employee0_.person_id as person_i5_1_0_, employee0_.salary as salary4_1_0_, person1_.person_id as person_i1_2_1_, person1_.email as email2_2_1_, person1_.mobile_number as mobile_n3_2_1_, person1_.name as name4_2_1_ from employee employee0_ inner join person person1_ on employee0_.person_id=person1_.person_id where employee0_.emp_id=?
+2022-04-28 12:46:50,696 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+2022-04-28 12:46:50,699 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-1] Span reported: b281f6c33f152418:b281f6c33f152418:0:1 - getAddressByEmployeeId
+2022-04-28 12:46:50,699 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:46)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:29)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.matc.MATC.AccessMent.Java.securityConfigUser.JwtFilter.doFilterInternal(JwtFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at io.opentracing.contrib.web.servlet.filter.TracingFilter.doFilter(TracingFilter.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-28 12:46:50,701 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] "ERROR" dispatch for GET "/error", parameters={}
+2022-04-28 12:46:50,702 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-28 12:46:50,703 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:46:50,704 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] Writing [{timestamp=Thu Apr 28 12:46:50 IST 2022, status=500, error=Internal Server Error, path=/api/v1/emplo (truncated)...]
+2022-04-28 12:46:50,709 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-1] Span reported: b281f6c33f152418:25f232396426ed34:b281f6c33f152418:1 - error
+2022-04-28 12:46:50,709 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Exiting from "ERROR" dispatch, status 500
+2022-04-28 12:47:33,610 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 12:47:33,620 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] GET "/api/v1/employee/1/addresses", parameters={}
+2022-04-28 12:47:33,622 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to com.matc.MATC.AccessMent.Java.controller.AddressController#getAddressByEmployeeId(Long)
+2022-04-28 12:47:39,772 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select address0_.add_id as add_id1_0_0_, address0_.emp_id as emp_id5_0_0_, address0_.land_mark as land_mar2_0_0_, address0_.location as location3_0_0_, address0_.pin_code as pin_code4_0_0_ from address address0_ where address0_.add_id=?
+2022-04-28 12:47:39,779 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select address0_.add_id as add_id1_0_, address0_.emp_id as emp_id5_0_, address0_.land_mark as land_mar2_0_, address0_.location as location3_0_, address0_.pin_code as pin_code4_0_ from address address0_
+2022-04-28 12:47:39,783 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:47:39,783 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [[com.matc.MATC.AccessMent.Java.model.Address@1678e26f, com.matc.MATC.AccessMent.Java.model.Address@4 (truncated)...]
+2022-04-28 12:47:39,784 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select employee0_.emp_id as emp_id1_1_0_, employee0_.designation as designat2_1_0_, employee0_.experience as experien3_1_0_, employee0_.person_id as person_i5_1_0_, employee0_.salary as salary4_1_0_, person1_.person_id as person_i1_2_1_, person1_.email as email2_2_1_, person1_.mobile_number as mobile_n3_2_1_, person1_.name as name4_2_1_ from employee employee0_ inner join person person1_ on employee0_.person_id=person1_.person_id where employee0_.emp_id=?
+2022-04-28 12:47:39,787 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+2022-04-28 12:47:39,789 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-2] Span reported: 12dc2ecc2b416505:12dc2ecc2b416505:0:1 - getAddressByEmployeeId
+2022-04-28 12:47:39,790 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:46)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:29)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.matc.MATC.AccessMent.Java.securityConfigUser.JwtFilter.doFilterInternal(JwtFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at io.opentracing.contrib.web.servlet.filter.TracingFilter.doFilter(TracingFilter.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-28 12:47:39,791 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] "ERROR" dispatch for GET "/error", parameters={}
+2022-04-28 12:47:39,791 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-28 12:47:39,792 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 12:47:39,793 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [{timestamp=Thu Apr 28 12:47:39 IST 2022, status=500, error=Internal Server Error, path=/api/v1/emplo (truncated)...]
+2022-04-28 12:47:39,794 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-2] Span reported: 12dc2ecc2b416505:938ef5e1dd4a7ed:12dc2ecc2b416505:1 - error
+2022-04-28 12:47:39,794 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Exiting from "ERROR" dispatch, status 500
+2022-04-28 13:01:50,104 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-04-28 13:01:50,109 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] GET "/api/v1/employee/1/addresses", parameters={}
+2022-04-28 13:01:50,110 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-6] Mapped to com.matc.MATC.AccessMent.Java.controller.AddressController#getAddressByEmployeeId(Long)
+2022-04-28 13:02:01,009 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select address0_.add_id as add_id1_0_0_, address0_.emp_id as emp_id5_0_0_, address0_.land_mark as land_mar2_0_0_, address0_.location as location3_0_0_, address0_.pin_code as pin_code4_0_0_ from address address0_ where address0_.add_id=?
+2022-04-28 13:02:05,664 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select address0_.add_id as add_id1_0_, address0_.emp_id as emp_id5_0_, address0_.land_mark as land_mar2_0_, address0_.location as location3_0_, address0_.pin_code as pin_code4_0_ from address address0_
+2022-04-28 13:02:07,769 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select employee0_.emp_id as emp_id1_1_0_, employee0_.designation as designat2_1_0_, employee0_.experience as experien3_1_0_, employee0_.person_id as person_i5_1_0_, employee0_.salary as salary4_1_0_, person1_.person_id as person_i1_2_1_, person1_.email as email2_2_1_, person1_.mobile_number as mobile_n3_2_1_, person1_.name as name4_2_1_ from employee employee0_ inner join person person1_ on employee0_.person_id=person1_.person_id where employee0_.emp_id=?
+2022-04-28 13:02:30,069 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s49ms326µs408ns).
+2022-04-28 13:02:30,090 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select address0_.add_id as add_id1_0_, address0_.emp_id as emp_id5_0_, address0_.land_mark as land_mar2_0_, address0_.location as location3_0_, address0_.pin_code as pin_code4_0_ from address address0_
+2022-04-28 13:02:46,510 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select address0_.add_id as add_id1_0_0_, address0_.emp_id as emp_id5_0_0_, address0_.land_mark as land_mar2_0_0_, address0_.location as location3_0_0_, address0_.pin_code as pin_code4_0_0_ from address address0_ where address0_.add_id=?
+2022-04-28 13:02:46,543 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-6] select address0_.add_id as add_id1_0_, address0_.emp_id as emp_id5_0_, address0_.land_mark as land_mar2_0_, address0_.location as location3_0_, address0_.pin_code as pin_code4_0_ from address address0_
+2022-04-28 13:03:16,682 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-28 13:03:16,683 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] Writing [[com.matc.MATC.AccessMent.Java.model.Address@467a935e, com.matc.MATC.AccessMent.Java.model.Address@7 (truncated)...]
+2022-04-28 13:03:16,684 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-6] Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+2022-04-28 13:03:16,692 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-6] Span reported: 3ca1fe9231eb9878:3ca1fe9231eb9878:0:1 - getAddressByEmployeeId
+2022-04-28 13:03:16,693 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.matc.MATC.AccessMent.Java.model.Address["employee"]->com.matc.MATC.AccessMent.Java.model.Employee$HibernateProxy$jbGFMS6M["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1300)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:46)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:29)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1007)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:456)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.matc.MATC.AccessMent.Java.securityConfigUser.JwtFilter.doFilterInternal(JwtFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at io.opentracing.contrib.web.servlet.filter.TracingFilter.doFilter(TracingFilter.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-28 13:03:16,694 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-6] "ERROR" dispatch for GET "/error", parameters={}

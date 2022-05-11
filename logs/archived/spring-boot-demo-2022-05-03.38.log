@@ -1,0 +1,31 @@
+2022-05-03 21:03:00,256 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-05-03 21:03:00,260 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-05-03 21:04:31,621 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 21:04:31,626 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-03 21:04:31,626 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Detected StandardServletMultipartResolver
+2022-05-03 21:04:31,627 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Detected AcceptHeaderLocaleResolver
+2022-05-03 21:04:31,628 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Detected FixedThemeResolver
+2022-05-03 21:04:31,630 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7d018c58
+2022-05-03 21:04:31,632 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@1ea78c72
+2022-05-03 21:04:31,632 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-05-03 21:04:31,632 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 6 ms
+2022-05-03 21:04:31,862 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-1] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-05-03 21:04:31,910 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] POST "/api/v1/login", parameters={}
+2022-05-03 21:04:31,917 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-1] Mapped to com.matc.MATC.AccessMent.Java.controller.UserController#generateToken(JwtRequest)
+2022-05-03 21:04:32,063 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-1] Read "application/json;charset=UTF-8" to [JwtRequest(username=dmin, password=admin123)]
+2022-05-03 21:04:32,359 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed 200 OK
+2022-05-03 21:04:32,372 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-1] Span reported: f35d11167cb080c8:f35d11167cb080c8:0:1 - generateToken
+2022-05-03 21:04:42,262 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-05-03 21:04:42,271 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] POST "/api/v1/login", parameters={}
+2022-05-03 21:04:42,273 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8081-exec-2] Mapped to com.matc.MATC.AccessMent.Java.controller.UserController#generateToken(JwtRequest)
+2022-05-03 21:04:42,275 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Read "application/json;charset=UTF-8" to [JwtRequest(username=admin, password=admin123)]
+2022-05-03 21:04:42,378 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8081-exec-2] select user0_.user_id as user_id1_3_, user0_.password as password2_3_, user0_.role as role3_3_, user0_.user_name as user_nam4_3_ from user user0_ where user0_.user_name=?
+2022-05-03 21:04:42,418 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8081-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-05-03 21:04:42,429 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8081-exec-2] Writing [LoginDto(id=1, userName=admin, role=ADMIN, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6Ik (truncated)...]
+2022-05-03 21:04:42,437 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed 201 CREATED
+2022-05-03 21:04:42,438 INFO io.jaegertracing.internal.reporters.LoggingReporter [http-nio-8081-exec-2] Span reported: 20cbfef87a391cdf:20cbfef87a391cdf:0:1 - generateToken
+2022-05-03 21:08:49,869 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [SpringApplicationShutdownHook] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-05-03 21:08:49,870 DEBUG org.springframework.context.support.AbstractApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4416d64f, started on Tue May 03 21:02:50 IST 2022
+2022-05-03 21:08:49,906 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 21:08:49,908 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-05-03 21:08:49,927 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
