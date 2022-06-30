@@ -1,4 +1,4 @@
-package com.matc.MATC.AccessMent.Java.enuM;
+package com.matc.MATC.AccessMent.Java.model;
 
 public enum ERole {
     ROLE_USER,

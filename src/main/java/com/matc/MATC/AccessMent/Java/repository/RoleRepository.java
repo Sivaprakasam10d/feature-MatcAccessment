@@ -1,6 +1,6 @@
 package com.matc.MATC.AccessMent.Java.repository;
 
-import com.matc.MATC.AccessMent.Java.enuM.ERole;
+import com.matc.MATC.AccessMent.Java.model.ERole;
 import com.matc.MATC.AccessMent.Java.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

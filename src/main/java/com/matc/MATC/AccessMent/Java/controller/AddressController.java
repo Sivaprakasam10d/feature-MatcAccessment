@@ -10,6 +10,7 @@ import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -40,6 +41,7 @@ public class AddressController {
     }
 
     @GetMapping("/address")
+    @PreAuthorize("hasRole('ADMIN')")
     public List<Address> getAllAddress() {
         return addressservice.getAllAddress();
     }
@@ -57,6 +59,7 @@ public class AddressController {
     }
 
     @DeleteMapping("/employee/{empId}/address")
+    @PreAuthorize("hasRole('MODERATOR')")
     public void deleteAddressEmpId(@PathVariable("empId") Long id) {
         addressservice.deleteByAddress(id);
     }

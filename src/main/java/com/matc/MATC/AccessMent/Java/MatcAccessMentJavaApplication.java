@@ -7,7 +7,6 @@ import io.swagger.v3.oas.annotations.info.Info;
 import io.swagger.v3.oas.annotations.security.SecurityScheme;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ImportResource;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
@@ -22,7 +21,6 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 public class MatcAccessMentJavaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MatcAccessMentJavaApplication.class, args);
+		SpringApplication.run(MatcAccessMentJavaApplication.class, args);}
 	}
 
-}

@@ -11,6 +11,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -26,6 +27,7 @@ public class PersonController {
     PersonServiceMongo personServiceMongo;
 
     @GetMapping("/person/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
     public Person getPerson(@PathVariable("id") Long id) {
         return personService.getPersonById(id);
     }
@@ -37,6 +39,7 @@ public class PersonController {
     }
 
     @GetMapping("/person")
+    @PreAuthorize("hasRole('ADMIN')")
     public List<Person> getAllPerson() {
         return personService.getAllPerson();
     }
@@ -48,12 +51,14 @@ public class PersonController {
     }
 
     @DeleteMapping("/person/{id}")
+    @PreAuthorize("hasRole('MODERATOR')")
     public String deletePerson(@PathVariable("id") Long id) {
         personService.personDelete(id);
         personServiceMongo.personMoDelete(id);
         return "deleted";
     }
     @PostMapping("/person")
+    @PreAuthorize("hasRole('ADMIN')")
     public PersonDto savePerson(@RequestBody PersonDto personDto) {
 
         var person = new Person();

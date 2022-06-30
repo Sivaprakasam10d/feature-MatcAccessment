@@ -30,6 +30,7 @@ public class EmployeeController {
 
 
     @GetMapping("/employee/{id}")
+    @PreAuthorize("hasRole('MODERATOR')")
     public Employee getEmployee(@PathVariable("id") Long id) {
         return employeeservice.getEmployeeById(id);
     }
@@ -49,6 +50,7 @@ public class EmployeeController {
     //Mo
     @GetMapping("/EmployeesMo")
     public List<EmployeeMo> getAllMoEmployee() {
+
         return employeeServiceMongo.getAllEmployeeMo();
     }
 
