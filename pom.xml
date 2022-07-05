@@ -78,6 +78,11 @@
             <artifactId>jjwt</artifactId>
             <version>0.9.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.6</version>
+        </dependency>
     		<dependency>
     			<groupId>org.projectlombok</groupId>
     			<artifactId>lombok</artifactId>
@@ -150,9 +155,33 @@
     					<artifactId>sonar-maven-plugin</artifactId>
     					<version>3.4.0.905</version>
     				</plugin>
-    		</plugins>
+    				      <plugin>
+                            <groupId>org.sonarsource.scanner.maven</groupId>
+                            <artifactId>sonar-maven-plugin</artifactId>
+                            <version>3.7.0.1746</version>
+                          </plugin>
+
+    		<plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.6</version>
+                <executions>
+                    <execution>
+                        <id>jacoco-initialize</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>jacoco-site</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            </plugins>
     	</build>
-
-
 
     </project>
